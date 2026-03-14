@@ -1,0 +1,72 @@
+add_newline=false
+[directory]
+truncation_length = 0
+truncate_to_repo = false
+style = "bold yellow"
+format = "[$path]($style)[$read_only]($read_only_style) "
+[character]
+success_symbol = "[λ](bold white)"
+error_symbol = "[λ!](bold red)"
+[git_branch]
+symbol = ":"
+style = "white"
+format = '[$symbol$branch]($style) '
+[git_status]
+untracked= "."
+modified="*"
+staged=""
+conflicted="!"
+behind="b"
+renamed="r"
+
+format = '([\[$conflicted $deleted $renamed $modified $staged $behind\]]($style) )'
+
+# disabled
+[hg_branch]
+disabled = true
+[dart]
+disabled = true
+[dotnet]
+disabled = true
+[elixir]
+disabled = true
+[elm]
+disabled = true
+[erlang]
+disabled = true
+[golang]
+disabled = true
+[helm]
+disabled = true
+[java]
+disabled = true
+[julia]
+disabled = true
+[kotlin]
+disabled = true
+[nim]
+disabled = true
+[ocaml]
+disabled = true
+[php]
+disabled = true
+[purescript]
+disabled = true
+[swift]
+disabled = true
+[zig]
+disabled = true
+[memory_usage]
+disabled = true
+[gcloud]
+disabled = true
+[openstack]
+disabled = true
+[crystal]
+disabled = true
+[lua]
+disabled = true
+[jobs]
+disabled = true
+[battery]
+disabled = true
